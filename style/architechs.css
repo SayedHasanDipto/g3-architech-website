@@ -213,7 +213,7 @@ a {
     border-radius: 8px;
 }
 
-#experience-badge{
+#experience-badge {
     padding: 45px 42px;
     border: none;
     color: white;
@@ -223,12 +223,16 @@ a {
     margin-top: -100px;
 }
 
-#exp-year{
+#exp-year {
     font-size: 4rem;
     font-weight: 700
 }
 
-#exp-txt{
+.fee-arch img {
+    width: 100%;
+}
+
+#exp-txt {
     font-size: 1.5rem;
     font-weight: 500;
 }
@@ -242,120 +246,21 @@ a {
     max-width: 514px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive Media Quory */
 
 @media screen and (max-width: 576px) {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams,
+    .features,
+    .features {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .features img{
+        width: 100%;
     }
 
     .team-img-container,
@@ -383,9 +288,16 @@ a {
         gap: 50px;
     }
 
+    #experience-badge {
+        margin: 20px;
+    }
+
+
+
 }
 
 @media screen and (min-width: 576px) and (maxx-width: 772px) {
+
     .teams {
         flex-direction: column;
     }
@@ -400,5 +312,7 @@ a {
         gap: 50px;
         justify-items: center;
     }
+
+
 
 }
