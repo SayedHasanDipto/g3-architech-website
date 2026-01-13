@@ -24,6 +24,17 @@
     margin: 0px auto;
 }
 
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 21px 25px;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin-top: 32px;
+}
+
 /* dark 02 */
 .text-gray {
     color: #424242;
@@ -58,4 +69,36 @@ a {
 
 .links {
     font-weight: 500;
+}
+
+/* Banner Styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-content .banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.banner-description{
+    color: #727272;
+    line-height: 26px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+/* Responsive Media Quory */
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+        /* gap: 10px; */
+    }
 }
